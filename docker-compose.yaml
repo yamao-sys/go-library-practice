@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+  api_server:
+    container_name: api_server
+    build:
+      context: ./app
+    volumes:
+      - ./app:/app
+    tty: true # コンテナの永続化
+    env_file:
+      - ./app/.go_env
+    environment:
+      - TZ=Asia/Tokyo
