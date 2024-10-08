@@ -1,4 +1,4 @@
-# go-standard-library-practice
+# go-library-practice
 Goのキャッチアップリポジトリ(標準パッケージ・基本のサードパーティパッケージ)
 
 ## コマンド類
