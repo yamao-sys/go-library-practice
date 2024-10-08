@@ -6,6 +6,8 @@ services:
       context: ./app
     volumes:
       - ./app:/app
+    ports:
+      - 8080:8080
     tty: true # コンテナの永続化
     env_file:
       - ./app/.go_env
